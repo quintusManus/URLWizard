@@ -36,8 +36,8 @@ git clone https://github.com/ben-woods/datadirect-url-wizard.git
 cd datadirect-url-wizard
 
 # compile & run (Java 11+)
-javac URLWizard.java
-java URLWizard
+javac -d out src/main/java/com/example/URLWizard.java
+java -cp out com.example.URLWizard
 ```
 
 Example session:
